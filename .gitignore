@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Temp uploads
+uploads/
+tmp/
+temp/
+*.tmp
+
+# Git worktrees
+.worktrees/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
