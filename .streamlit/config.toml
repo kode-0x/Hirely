@@ -1,0 +1,16 @@
+[server]
+headless = true
+# Fixed ceiling, in megabytes, well above the documented MAX_UPLOAD_MB default
+# of 10. Streamlit never rejects an upload before Hirely's own authoritative
+# size validation runs.
+maxUploadSize = 50
+
+[theme]
+primaryColor = "#2563eb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
